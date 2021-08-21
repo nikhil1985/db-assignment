@@ -1,5 +1,7 @@
 ﻿# db-assignment
 
+**Please refer to README.odt file.**
+
 Set up express backend.
 cd express-bk
 npm install
