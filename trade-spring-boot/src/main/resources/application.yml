@@ -1,0 +1,19 @@
+server:
+  port: 8083
+
+spring:
+  h2:
+    console:
+      enable: true
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_ON_EXIT=FALSE
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    
+db:
+  update:
+    maturity:
+      frequency: 10000      
